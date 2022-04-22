@@ -5,10 +5,10 @@ with open('README.md', 'rb') as f:
     readme = f.read().decode('utf-8')
 
 setup(
-    name='milksnake',
+    name='milksnakex',
     version='0.1.5',
-    author='Armin Ronacher',
-    author_email='armin.ronacher@active-4.com',
+    author='Armin Ronacher, Abid Omar',
+    author_email='armin.ronacher@active-4.com, contact@omarabid.com',
     license='Apache License 2.0',
     packages=['milksnake'],
     package_data={
