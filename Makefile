@@ -1,6 +1,12 @@
 all: test
 
+clean:
+	rm -rf  dist || echo no dist
+
 test:
 	@pytest tests
 
-.PHONY: all test
+build: clean
+	@python -m build
+
+.PHONY: all build clean test
